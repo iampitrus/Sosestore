@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container-x {
+  @apply px-3 md:px-12 lg:px-24;
+}
