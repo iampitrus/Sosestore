@@ -48,7 +48,7 @@ function TopBands() {
             <img width={130} src={"./honeywellsemolina.jpg"} alt="brand" />
           </div>
           <div
-            className={`rounded-full absolute w-60 h-60 -top-20 -right-10 bg-orange-300 outline outline-1 outline-offset-4 outline-orange-400`}
+            className={`rounded-full absolute w-60 h-60 -top-20 -right-10 bg-orange-500 outline outline-1 outline-offset-4 outline-orange-400`}
           ></div>
         </div>
         {/* Bua */}
