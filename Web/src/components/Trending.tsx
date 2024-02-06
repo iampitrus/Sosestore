@@ -6,9 +6,17 @@ import products from "../constants";
 function Trending() {
   return (
     <section className="container-x py-6">
-      <div className="w-fit mb-4">
-        <h2 className="font-bold text-gray-500 text-3xl">Trending Products</h2>
-        <hr className="border-2 border-blue-500 rounded-full w-[100%]" />
+      <div className="flex justify-between mb-4">
+        <div className="w-fit">
+          <h2 className="font-bold text-gray-500 text-3xl">
+            Trending Products
+          </h2>
+          <hr className="border-2 border-blue-500 rounded-full w-[100%]" />
+        </div>
+        <div className="flex items-center gap-1">
+          <p>View All</p>
+          <IoIosArrowForward color="blue" size={20} />
+        </div>
       </div>
       {/* cards */}
       <div className="flex flex-col gap-6">

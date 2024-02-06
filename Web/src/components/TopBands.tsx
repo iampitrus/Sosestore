@@ -1,11 +1,19 @@
+import { IoIosArrowForward } from "react-icons/io";
+
 function TopBands() {
   return (
     <section className="container-x py-6">
-      <div className="w-fit mb-4">
-        <h2 className="font-bold text-gray-500 text-3xl">
-          Top <span className="text-green-600">Brands</span>
-        </h2>
-        <hr className="border-2 border-blue-500 rounded-full w-[130%]" />
+      <div className="mb-4 flex justify-between">
+        <div className="w-fit">
+          <h2 className="font-bold text-gray-500 text-3xl">
+            Top <span className="text-green-600">Brands</span>
+          </h2>
+          <hr className="border-2 border-blue-500 rounded-full w-[130%]" />
+        </div>
+        <div className="flex items-center gap-1">
+          <p>View All</p>
+          <IoIosArrowForward color="blue" size={20} />
+        </div>
       </div>
       <div className="grid grid-cols-3 gap-4">
         {/* Mamagold */}
